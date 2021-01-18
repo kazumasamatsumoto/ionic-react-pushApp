@@ -1,0 +1,16 @@
+{
+  "appId": "com.matsumoto.push",
+  "appName": "pushApp",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound","alert"]
+    }
+  },
+  "cordova": {}
+}
